@@ -1,0 +1,33 @@
+.addedPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10% 0;
+  width: 40%;
+
+  div {
+    color: red;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      padding: 1%;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 2%;
+    }
+
+    button {
+      width: 40%;
+      color: white;
+      padding: 1% 0;
+      font-size: 25px;
+      margin-top: 2%;
+      background-color: #f4b200;
+      cursor: pointer;
+      border: none;
+      border-radius: 40px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: darkgrey;
+}
+
+.container input {
+    padding: 8px;
+    border: 6px solid;
+    border-image: linear-gradient(to left, darkblue, darkorchid) 1;
+    font-weight: 600;
+}
+
+#sual {
+    background-color: bisque;
+}
+
+.cvb1,
+.cvb2,
+.cvb3,
+.cvb4 {
+    background-color: bisque;
+    color: black;
+}
+
+#correct{
+    background-color: beige;
+    border-image: linear-gradient(to right, red, green) 1;
+}
+
+#button {
+    background-color: green;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    border: none;
+}
+
+button:hover {
+    padding: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#quizeBasla{
+    background-color: chocolate;
+}
+
+#konsol{
+    background-color: slategray;
+}

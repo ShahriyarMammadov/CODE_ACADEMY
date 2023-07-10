@@ -1,0 +1,75 @@
+body {
+    padding: 0 5%;
+    max-width: 1440px;
+    margin: 2% auto;
+
+    // #statistic{
+    //     // background-color: rebeccapurple;
+    // }
+    .ant-statistic-title {
+        margin-top: 150px;
+    }
+
+    #basic {
+        margin-top: 150px;
+    }
+}
+
+.dark {
+    transition: all 2s;
+    background-color: #202C36;
+    color: #fff;
+
+    label {
+        transition: all 2s;
+        color: #F2F2F2;
+    }
+
+    .ant-statistic-title,
+    .ant-statistic-content {
+        transition: all 2s;
+        color: white;
+    }
+
+    .ant-form-item-required {
+        transition: all 2s;
+        color: white !important;
+    }
+
+    .ant-result-title {
+        color: white;
+    }
+
+
+}
+
+.light {
+    transition: all 2s;
+    background-color: #F2F2F2;
+    color: #333;
+
+    label {
+        transition: all 2s;
+        color: black;
+    }
+
+    .ant-statistic-title,
+    .ant-statistic-content {
+        transition: all 2s;
+        color: black;
+    }
+
+    label {
+        color: black !important;
+    }
+
+    .ant-result-title {
+        color: black;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

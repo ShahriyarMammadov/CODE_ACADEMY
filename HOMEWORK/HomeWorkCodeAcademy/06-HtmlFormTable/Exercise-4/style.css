@@ -1,0 +1,31 @@
+.aEtiketi {
+    font-size: 12px;
+}
+.petiketi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.xett {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+#name1 {
+    margin-left: 25px;
+}
+
+#adres1 {
+    margin-left: 11px;
+}
+
+#city {
+    margin-left: 36px;
+}
+
+#state {
+    margin-left: 31.5px;
+}
+
+#zip {
+    margin-left: 41px;
+}

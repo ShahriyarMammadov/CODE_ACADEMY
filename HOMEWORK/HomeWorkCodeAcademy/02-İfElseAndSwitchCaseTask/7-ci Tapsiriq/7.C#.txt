@@ -1,0 +1,22 @@
+/* 7. Düzbucaqlı üçbucağın katetləri və hipotenuzunun uzunluğu verilib. Verilən məlumatlara əsəsən bu üçbucağın düzbucaqlı üçbucaq olub olmadığını 
+yoxlayan proqram tərtib edin.
+Məsələn: katet1=3, katet2=4, hipotenuz=5 yazdıqda cavab bu şəkildə olmalıdır:
+
+Result: düzbucaqlı üçbucaqdır
+
+Məsələn: katet1=3, katet2=3, hipotenuz=8 yazdıqda cavab bu şəkildə olmalıdır:
+
+Result: düzbucaqlı üçbucaq deyil. */
+
+using System;
+
+int katet1 = 6;
+int katet2 = 8;
+int hipotenuz = 10;
+
+if ((katet1*katet1)+(katet2 *katet2) == hipotenuz *hipotenuz){
+    Console.WriteLine("düzbucaqlı üçbucaqdır");
+}else
+{
+    Console.WriteLine("düzbucaqlı üçbucaq deyil!!");
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="./assets/css/countries.css">
+    <title>Countries</title>
+</head>
+
+<body class="body">
+    <header>
+        <h2>Where in the world?</h2>
+        <button id="darkMode"><i class="fa-regular fa-moon"></i> Dark mode</button>
+    </header>
+    <div class="container">
+
+
+        <div class="inputs">
+            <input type="text" id="searchInput" placeholder="Search for a country . . . ">
+
+            <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected></option>
+                    <option value="1" id="selected1">All</option>
+                    <option value="2" id="selected2">Africa</option>
+                    <option value="3" id="selected3">Americas</option>
+                    <option value="3" id="selected4">Asia</option>
+                    <option value="3" id="selected5">Europe</option>
+                    <option value="3" id="selected6">Oceania</option>
+                </select>
+                <label for="floatingSelect">Filter by Region</label>
+            </div>
+        </div>
+        <div class="conta"> </div>
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+            </div>
+
+        </div>
+
+        <div class="row cardBox"></div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

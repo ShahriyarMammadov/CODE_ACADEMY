@@ -1,0 +1,69 @@
+.calc {
+    background-color: darkgrey;
+    color: white;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.screen,.result {
+    background-color: darkgrey;
+    width: 25%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px auto;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.body {
+    position: relative;
+    background-color: royalblue;
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    button {
+        background-color: purple;
+        // padding: 30px;
+        margin-left: 8px;
+        margin-top: 15px;
+        width: 80px;
+        height: 80px;
+        color: white;
+        cursor: pointer;
+
+        &:hover{
+            background-color: royalblue;
+        }
+    }
+    .numbers {
+        margin-left: -13px;
+        display: inline-block;
+        width: 290px;
+        padding: 0;
+    }
+    .vurma{
+        position: absolute;
+        top: 115px;
+        margin-left: -4px;
+    }
+    .cixma{
+        position: absolute;
+        top: 210px;
+        margin-left: 0;
+        margin-left: -4px;
+    }
+    .toplama{
+        position: absolute;
+        top: 305px;
+        margin-left: 0;
+        margin-left: -4px;
+    }
+    .beraber{
+        margin-left: 0;
+        margin-left: -4px;
+    }
+}

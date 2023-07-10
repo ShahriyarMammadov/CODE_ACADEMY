@@ -1,0 +1,47 @@
+.embla {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  .embla__container {
+    display: flex;
+    .embla__slide {
+      flex: 0 0 100%;
+      min-width: 0;
+      .image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 600px;
+
+        .icons {
+          text-align: center;
+          padding-top: 20%;
+          .fa-play {
+            padding: 3%;
+            font-size: 30px;
+            cursor: pointer;
+            border-radius: 50%;
+            background-color: white;
+          }
+        }
+
+        .textBottom {
+          padding-top: 10%;
+          padding-left: 4%;
+          color: white;
+        }
+      }
+      .image1 {
+        background-image: url("http://www.themestarz.net/html/lifecoach/assets/img/img-woman-standing.jpg");
+      }
+
+      .image2 {
+        background-image: url("http://www.themestarz.net/html/lifecoach/assets/img/img-male-mentoring.jpg");
+      }
+
+      .image3 {
+        background-image: url("http://www.themestarz.net/html/lifecoach/assets/img/img-couple-yacht.jpg");
+      }
+    }
+  }
+}

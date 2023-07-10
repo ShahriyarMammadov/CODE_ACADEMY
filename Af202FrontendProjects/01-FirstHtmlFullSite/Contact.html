@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="Home.html" title="Go to the Home site">Home</a></li>
+        <li><a href="About.html" title="Go to the About site">About</a></li>
+        <li><a href="Numbers.html" title="Go to the Numbers site">Numbers</a></li>
+        <li><a href="Contact.html" title="Go to the Contact site">Contact</a></li>
+    </ul>
+
+    <img src="images/logo.jpg" alt="Coffee shop">
+
+    <h1>Contact page</h1>
+
+    <img src="images/background.jpg" alt="Coffee" class="img1">
+
+    <h1 style="text-align: center;">Contact</h1>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter you name"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter you Email"><br><br>
+
+        <label for="textarea">Description</label><br><br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="arzu və istəkləriniz"></textarea><br><br>
+
+        <button id="submit-btn" onclick="submitClick()">Submit Here</button>
+    </form><br><br>
+
+
+    <footer>
+        <p>Copyrigth C2020</p>
+    </footer>
+
+    <div id="myBtn" onclick="topFunction()" title="Back To Top">
+        <i class="fa-solid fa-up-long"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+/* .card {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid rgba(128, 0, 128, 0.2);
+    border-radius: 20px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkmagenta;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn1:hover{
+    background-color: cadetblue;
+    color: black;
+    font-weight: bold;
+}
+
+.card2{
+    border: 2px solid blue;
+}
+
+.circle2{
+    background-color: red;
+}
+
+.btn1{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+} */
+
+/* .container {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto;
+    border-radius: 50%;
+}
+
+#Div1 {
+    width: 340px;
+    height: 340px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#Div2 {
+    width: 225px;
+    height: 225px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid pink;
+    border-radius: 50%;
+
+}
+
+#Div3 {
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    border: 40px solid yellow;
+    border-radius: 50%;
+} */
+
+
+.container {
+    margin: 150px auto;
+    width: 400px;
+    height: 450px;
+    background-color: snow;
+    box-shadow: 5px 5px 50px black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.hEtiketi {
+    color: green;
+    padding-top: 15px;
+}
+
+.span {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.inputs {
+    padding: 15px;
+}
+
+.text1 {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(219, 216, 216);
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(7, 62, 7);
+    color: aliceblue;
+}
+
+.button:hover {
+    cursor: pointer;
+
+}
+.face{
+    color: #1198F5;
+    cursor: pointer;
+}
+.insta{
+    color: #BB286A;
+    cursor: pointer;
+}
+.linkedin{
+    color: #0073B1;
+    cursor: pointer;
+}

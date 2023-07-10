@@ -1,0 +1,148 @@
+footer {
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: row;
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+  }
+  .lefts {
+    display: flex;
+    width: 50%;
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  .rights {
+    display: flex;
+    width: 50%;
+    @media only screen and (max-width: 992px) {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  .journal {
+    margin-top: -20px;
+
+    .logoFooter {
+      h1 {
+        font-size: 40px;
+        padding: 2% 0;
+        padding-bottom: 7%;
+      }
+    }
+
+    .location {
+      font-size: 18px;
+    }
+
+    .social {
+      display: flex;
+      width: 40%;
+      flex-wrap: wrap;
+
+      i {
+        font-size: 26px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      span {
+        display: flex;
+        margin: 7px 0 0 6px;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          color: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .customer,
+  .account {
+    padding-bottom: 4%;
+    margin-left: 6%;
+    @media only screen and (max-width: 992px) {
+      width: 45%;
+    }
+    h3 {
+      font-size: 30px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin-top: 8%;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .account {
+    a {
+      margin-top: 18px !important;
+    }
+  }
+
+  .newsLetter {
+    margin-left: 10%;
+    margin-top: 1.5%;
+    width: 50%;
+
+    h3 {
+      font-size: 30px;
+      padding-bottom: 6%;
+    }
+
+    .inputs {
+      margin-top: 6%;
+
+      input {
+        padding: 2%;
+        width: 75%;
+      }
+
+      button {
+        background-color: #08274d;
+        color: white;
+        padding: 2%;
+      }
+    }
+
+    .check {
+      display: flex;
+      margin-top: 6%;
+    }
+  }
+}
+
+.footerBottom {
+  background-color: #3a4754;
+  color: #827d75;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+  button {
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+  i {
+    font-size: 30px;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

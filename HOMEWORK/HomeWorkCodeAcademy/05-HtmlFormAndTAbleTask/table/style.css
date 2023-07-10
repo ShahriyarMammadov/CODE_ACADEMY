@@ -1,0 +1,8 @@
+td,tr,th{
+    border: 4px double darkslategrey;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}

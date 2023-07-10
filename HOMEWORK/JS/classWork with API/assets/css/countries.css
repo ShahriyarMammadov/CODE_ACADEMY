@@ -1,0 +1,198 @@
+header {
+  padding: 1% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h2 {
+  margin-left: 7.5%;
+}
+header #darkMode {
+  margin-right: 7.5%;
+  padding: 0.5%;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+}
+header #darkMode i {
+  font-size: 20px;
+}
+
+.container .inputs {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .inputs .form-floating {
+  width: 180px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.container .inputs input {
+  padding: 0.5%;
+  width: 25%;
+}
+.container .cardBox .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+}
+.container .cardBox .col-3 {
+  margin-top: 30px;
+}
+.container .cardBox img {
+  height: 200px;
+}
+.container .cardBox h5 {
+  font-weight: 900;
+}
+.container .cardBox h6 {
+  font-weight: 700;
+}
+
+.dark {
+  background-color: #202D36;
+}
+.dark .conta {
+  background-color: #202D36;
+  color: #e6e6e6;
+}
+.dark header {
+  background-color: #2B3743;
+  color: #e6e6e6;
+}
+.dark header button {
+  color: #e6e6e6;
+}
+.dark #searchInput {
+  background-color: #2B3743;
+  border: none;
+}
+.dark .card {
+  background-color: #2B3743;
+  color: #e6e6e6;
+}
+.dark #floatingSelect {
+  border: none;
+  background-color: #2B3743;
+}
+.dark #floatingSelect option {
+  color: #e6e6e6;
+}
+.dark label {
+  color: #e6e6e6;
+}
+
+.counts {
+  display: none;
+}
+.counts .countries {
+  display: flex;
+  padding: 4% 0;
+  width: 50%;
+  margin: 8% auto;
+  background-color: red;
+}
+.counts .countries .image img {
+  height: 200px;
+  width: 200px;
+}
+.counts .countries .name {
+  margin-left: 150px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 7% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+.modal-content .bigCard {
+  display: flex;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  width: 780px;
+  height: 380px;
+}
+@media only screen and (max-width: 992px) {
+  .content {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+}
+.content .proto {
+  display: flex;
+  overflow-wrap: break-word;
+}
+.content .proto img {
+  height: 260px;
+  width: 200px;
+}
+.content .image img {
+  width: 380px;
+  height: 250px;
+  padding-right: 40px;
+}
+.content h4 {
+  margin-top: 35px;
+  font-size: 40px;
+  font-weight: 900;
+  width: 500px;
+}
+.content h5 {
+  width: 450px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.content a {
+  text-decoration: none;
+  color: red;
+}
+.content a:hover {
+  color: rgb(206, 32, 32);
+}
+.content .coat {
+  width: 150px;
+  height: 40px;
+}
+@media only screen and (max-width: 992px) {
+  .content .coat img {
+    width: 150px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .content .coat {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    width: 100px;
+    height: 10px;
+  }
+}/*# sourceMappingURL=countries.css.map */

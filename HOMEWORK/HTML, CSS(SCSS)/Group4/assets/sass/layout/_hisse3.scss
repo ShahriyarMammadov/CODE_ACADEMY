@@ -1,0 +1,70 @@
+#section2 {
+  .container {
+    background-color: $primary-color;
+
+    .umumi {
+      display: flex;
+
+      .sol {
+        h2 {
+          font-weight: 800;
+          color: white;
+        }
+
+        p {
+          color: white;
+          margin-top: 30px;
+        }
+
+        button {
+          @extend %primary-button;
+          background-color: white;
+          color: $text-dark;
+          font-weight: 900;
+          margin-top: 50px;
+        }
+
+        margin-top: 60px;
+
+      }
+
+      .sag {
+        margin-left: 300px;
+
+        .img {
+          img {
+
+            @media only screen and (max-width:992px) {
+
+              width: 100%;
+            }
+          }
+        }
+
+        @media only screen and (max-width: 992px) {
+          margin-left: 0;
+          margin-top: 40px;
+        }
+      }
+
+    }
+  }
+
+  @media only screen and (max-width:992px) {
+    .umumi {
+      display: block;
+      flex-direction: column-reverse;
+
+    }
+
+    .sol {
+      width: 100%;
+      padding-bottom: 40px;
+    }
+
+    .img {
+      width: 100%;
+    }
+
+  }
+}

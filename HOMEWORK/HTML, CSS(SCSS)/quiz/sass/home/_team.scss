@@ -1,0 +1,87 @@
+.container {
+    max-width: 1400px;
+    padding: 0 5%;
+    margin: 0 auto;
+
+    header {
+        width: 100%;
+        text-align: center;
+
+        #header {
+            @include flex();
+
+            h2 {
+                margin-bottom: 0;
+            }
+        }
+
+        .header-text {
+            @include flex();
+            font-weight: 400;
+            font-size: 16px;
+
+            p {
+                width: 32%;
+            }
+        }
+    }
+
+    .image {
+        gap: 57px;
+        width: 100%;
+        display: flex;
+        margin-top: 40px;
+
+        .images-top-1 {
+            gap: 57px;
+            margin-left: 136px;
+            width: 50%;
+            display: flex;
+
+            .andy,
+            .alison {
+
+                &:hover .sekil {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .images-top-2 {
+            gap: 57px;
+            display: flex;
+            margin-right: 136px;
+            width: 50%;
+
+            .andy,.hailey,.alison{
+                &:hover .sekil {
+                    opacity: 0.5;
+                }
+
+            }
+        }
+    }
+
+    .icon {
+        img {
+            margin-right: 40px;
+        }
+    }
+
+    .section2 {
+        display: flex;
+    }
+
+    @media only screen and (max-width: 992px) {
+
+        .image,
+        .images-top-1,
+        .images-top-2 {
+            flex-direction: column;
+        }
+
+        .images-top-2 {
+            margin-left: 140px;
+        }
+    }
+}

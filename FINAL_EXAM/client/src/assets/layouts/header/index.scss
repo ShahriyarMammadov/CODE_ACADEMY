@@ -1,0 +1,65 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #e3834f;
+  z-index: 2;
+
+  @media only screen and (max-width: 992px){
+    width: 100%;
+  }
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    .active {
+      text-decoration: underline;
+      color: #f4b200;
+    }
+    .logo {
+      a {
+        color: black;
+
+        h1 {
+          font-size: 28px;
+        }
+      }
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 4%;
+
+      a {
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .meetBtn {
+        border-radius: 10px;
+        padding: 2%;
+        background-color: #f4b200;
+        color: white;
+      }
+
+      @media only screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  .fa-bars {
+    display: none;
+    @media only screen and (max-width: 992px) {
+      display: block;
+    }
+  }
+}
+a {
+  text-decoration: none;
+}

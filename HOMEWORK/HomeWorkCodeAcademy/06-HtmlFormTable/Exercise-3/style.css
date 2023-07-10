@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.klas {
+    background-color: rgb(242, 207, 13);
+    color: darkred;
+    font-size: 17px;
+}
+
+.aEtiketi,
+.kicikYazilanlar {
+    font-size: 12px;
+}
+
+.xett {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+#name1 {
+    margin-left: 25px;
+}
+
+#adres1 {
+    margin-left: 11px;
+}
+
+#city {
+    margin-left: 36px;
+}
+
+#state {
+    margin-left: 31.5px;
+}
+
+#zip {
+    margin-left: 41px;
+}

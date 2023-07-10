@@ -1,0 +1,83 @@
+header {
+    width: 100%;
+    @include flex(space-around);
+    background-color: $header-bg-color;
+
+    .card {
+        transition: all 0.8s;
+        @include card();
+
+        &:hover {
+            background-color: $font-color-card;
+            cursor: pointer;
+            border-bottom: 4px solid $font-color-green;
+        }
+
+        .icon {
+            width: 100%;
+            font-size: 40px;
+            color: $font-color-green;
+            padding-bottom: 6%;
+        }
+
+        .content {
+            margin-bottom: 4%;
+        }
+    }
+}
+
+section {
+    width: 100%;
+    display: flex;
+
+    .image {
+        width: 50%;
+        .img {
+            width: 60%;
+            height: 300px;
+            background-image: url("../images/4.jpg");
+            background-size: cover;
+            border: 6px solid green;
+            margin: 15% 0 0 25%;
+        }
+    }
+
+    .section-text {
+        font-family: $font-family-variable1;
+        width: 50%;
+        padding: 8% 0 0;
+        letter-spacing: 2px;
+
+        .tea{
+            font-size: 30px;
+            margin-top: 1%;
+        }
+        .section-text-header{
+            font-family: $font-family-variable2;
+            font-size: 30px;
+            color: $font-color-green;
+        }
+
+        .text {
+            width: 60%;
+            margin-top: 2%;
+        }
+        .btn{
+            margin-top: 4%;
+            button{
+                @include btn();
+
+                &:hover{
+                    background-color: $font-color-green;
+                }
+            }
+        }
+    }
+}
+
+
+.asides {
+    width: 18vw;
+    height: 40vh;
+    background-color: red;
+}

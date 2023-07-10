@@ -1,0 +1,42 @@
+/*4. 3 ədəd verilib. Bu ədədlərin birləşməsindən yaranan ən böyük və ən kiçik 3 rəqəmli ədədi tapan proqram tərtib edin. 
+Proqramın qaytardığı cavab number tipində olmalıdır. Yəni ki, aldığımız cavabı başqa bir ədədlə toplaya, çıxa və s. edə bilərik.
+Məsələn: a=4, b=5, c=6 daxil etdikdə cavab bu şəkildə olmalıdır:
+Big number: 654 
+Little number: 456 */
+
+
+using System;
+
+int a = 6;
+int b = 8;
+int c = 7;
+
+if (a > b && a > c && b > c) {
+    Console.WriteLine("Big number ;"+ ((a * 100) + (b * 10) + c));
+    Console.WriteLine("Little number ;"+ ((c * 100) + (b * 10) + a)); 
+}
+else if (a > b && a > c && b < c)
+{
+    Console.WriteLine("Big number ;"+ ((a * 100) + (c * 10) + b));
+    Console.WriteLine("Little number ;"+ ((b * 100) + (c * 10) + a));
+}
+else if (a < b && b > c && a > c)
+{
+    Console.WriteLine("Big number ;"+ ((b * 100) + (a * 10) + c));
+    Console.WriteLine("Little number ;"+ ((c * 100) + (a * 10) + b));
+}
+else if (a < b && b > c && a < c)
+{
+    Console.WriteLine("Big number ;"+ ((b * 100) + (c * 10) + a));
+    Console.WriteLine("Little number ;"+ ((a * 100) + (c * 10) + b));
+}
+else if (c > b && a < c && b > a)
+{
+    Console.WriteLine("Big number ;"+ ((c * 100) + (b * 10) + a));
+    Console.WriteLine("Little number ;"+ ((a * 100) + (b * 10) + c));
+}
+else if (c > b && a < c && a > b)
+{
+    Console.WriteLine("Big number ;"+(( c * 100) + (a * 10) + b));
+    Console.WriteLine("Little number ;"+ ((b * 100) + (a * 10) + c));
+}

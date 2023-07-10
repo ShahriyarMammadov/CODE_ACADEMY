@@ -1,0 +1,21 @@
+@mixin flex($justify-content: center, $align-items: center) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin card($width: 20vw) {
+    text-align: center;
+    width: $width;
+    padding: 1% 2% 2% 2%;
+}
+
+@mixin btn($width: 15%){
+    width: $width;
+    color: $font-color-white;
+    font-weight: bold;
+    background-color: #688F3F;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}

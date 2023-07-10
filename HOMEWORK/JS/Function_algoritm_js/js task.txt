@@ -1,0 +1,42 @@
+1. Tam ad funksiyasını elan edin və tam adınızı çap edin. 
+---------------------------------------------------------------------------------------------------------------------------------------------
+2. Tam Ad funksiyasını elan edin və indi parametr kimi firstName, LastName götürür və o, tam adınızı qaytarır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+3. addNumbers funksiyasını elan edin və o, iki iki parametr alır və cəmi qaytarır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+4. Düzbucaqlının sahəsini hesablayan areaOfRectangle funksiyanı yazın. en ve uzunluq parametrlərini alır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+5. Düzbucaqlının perimetrini hesablayan perimeterOfRectangle funksiyanı yazın. en ve uzunluq parametrlərini alır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+6. Düzbucaqlı prizmanın həcmini hesablayan VolumOfRectPrism funksiyanı yazın. hündürlük, en ve uzunluq parametrlərini alır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+7. Dairənin sahəsini hesablayan areaOfCircle funksiyasını yazın. radius parametrini alır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+8. Bir dairənin çevrəsini hesablayan circumOfCircle funksiyasını yazın. radius parametrini alır.
+---------------------------------------------------------------------------------------------------------------------------------------------
+9. Maddənin sıxlığını hesablayan funksiyanı yazın. kutlə və həcm parametrlərini alır
+---------------------------------------------------------------------------------------------------------------------------------------------
+10. Selsi-Fahrenheit-ə çevirən funksiyanı yazın.
+---------------------------------------------------------------------------------------------------------------------------------------------
+11. Bədən kütləsi indeksi (BMI) aşağıdakı kimi hesablanır: bmi = Kg ilə çəki / (hündürlük x boy) m2 ilə. bmi hesablayan funksiyanı yazın. 
+BKİ 20 yaş və ya daha böyük olan yetkinlərdə müxtəlif çəki qruplarını geniş şəkildə müəyyən etmək üçün istifadə olunur. 
+Aşağıda verilmiş məlumat əsasında şəxsin çəkisinin az, normal, artıq çəkisi və ya piylənməsini yoxlayın.
+
+Eyni qruplar həm kişilərə, həm də qadınlara aiddir.
+Az çəki: BMI 18,5-dən azdır
+Normal çəki: BMI 18,5 ilə 24,9 arasındadır
+Artıq çəki: BMI 25 ilə 29.9 arasındadır
+Obez: BMI 30 və ya daha çox
+---------------------------------------------------------------------------------------------------------------------------------------------
+12. CheckSeason adlı funksiyanı yazın, bir ay parametr tələb edir və mövsümü qaytarır: Payız, Qış, Yaz və ya Yay.
+---------------------------------------------------------------------------------------------------------------------------------------------
+13. max ən böyük arqumentini qaytarır. üç arqument götürən və onların maksimumunu çıxaran 
+findMax funksiyasını yazın.
+---------------------------------------------------------------------------------------------------------------------------------------------
+14. printArray adında arrayın elementlərini çap edən funksiya yazın
+---------------------------------------------------------------------------------------------------------------------------------------------
+15. reverseArray adında arrayin elementlərini tərsinə çevirən funksiya yaradın
+---------------------------------------------------------------------------------------------------------------------------------------------
+16. addItem adında arraya element daxil edən funksiya yazın
+---------------------------------------------------------------------------------------------------------------------------------------------
+17. showDateTime adında tarixi və saatı göstərən funksiya yazın

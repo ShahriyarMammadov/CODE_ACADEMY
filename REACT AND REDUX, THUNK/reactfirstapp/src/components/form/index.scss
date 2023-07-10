@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#registration-form {
+    position: relative;
+    width: 98.9vw;
+    height: 100vh;
+    background-image: linear-gradient(200deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+    .forms {
+        padding: 3%;
+        position: absolute;
+        top: 120px;
+        left: 23%;
+        width: 50%;
+        background-color: whitesmoke;
+
+        header {
+            h2 {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-bottom: 15px;
+                margin-left: 7px;
+            }
+        }
+
+
+        button {
+            background-image: linear-gradient(100deg, green, blue);
+            padding: 2%;
+            width: 15%;
+            border: none;
+            cursor: pointer;
+            color: white;
+            margin-top: 15px;
+        }
+
+        .inputs {
+            font-weight: 600;
+            font-size: 14px;
+
+            .firstInput {
+
+                input {
+                    padding: 1%;
+                    background-color: lightgrey;
+                    border: none;
+                    width: 35%;
+                    margin-top: 10px;
+                }
+
+                label {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+
+                display: flex;
+
+                .first {
+                    width: 50%;
+
+                    input,
+                    label {
+                        position: absolute;
+                        left: 53px;
+                    }
+                }
+
+                .second {
+                    width: 50%;
+                    padding-bottom: 40px;
+
+                    input,
+                    label {
+                        position: absolute;
+                        left: 430px;
+                    }
+                }
+            }
+
+            .secondInput {
+                margin-top: 25px;
+
+                .website {
+                    display: flex;
+                    justify-content: flex-start;
+                    position: absolute;
+                    width: 80%;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input {
+                        padding: 1%;
+                        width: 98.5%;
+                        margin-left: 25px;
+                        margin-top: 10px;
+                        background-color: lightgrey;
+                        border: none;
+                    }
+
+                    label {
+                        position: absolute;
+                        top: -18px;
+                        left: 8px;
+                        padding-right: 10px;
+                    }
+                }
+
+                .text {
+                    padding-top: 80px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 91.2%;
+
+                    textarea {
+                        background-color: lightgrey;
+                        margin-left: 1.5%;
+                        border: none;
+                    }
+
+                    label {
+                        position: absolute;
+                        top: 44%;
+                        left: 6.5%;
+                    }
+                }
+            }
+        }
+    }
+}

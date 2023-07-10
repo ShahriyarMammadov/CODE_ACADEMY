@@ -1,0 +1,29 @@
+#header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #051937;
+    padding: 15px;
+
+    nav {
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 25px;
+
+            button {
+                background-color: darkcyan;
+                border: none;
+                padding: 2%;
+                border-radius: 10px;
+                color: white;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.cardComp {
+  @media only screen and (max-width: 992px) {
+    .swiper-initialized {
+      .swiper-slide {
+        width: 100%;
+        margin-left: 20%;
+      }
+    }
+  }
+}

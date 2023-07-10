@@ -1,0 +1,29 @@
+using System;
+
+int number = 5;
+
+Boolean b = false;
+
+if (number == 1)
+{
+    Console.WriteLine("daxil edilen eded 1-den boyuk olmalidir!!");
+}
+else if (number > 1)
+{
+    for (int i = 2; i < number / 2; i++)
+    {
+        if (number % i == 0)
+        {
+            b = true;
+            break;
+        }
+    }
+    if (b == true)
+    {
+        Console.WriteLine(" murekkeb ededdir");
+    }
+    else
+    {
+        Console.WriteLine("sade ededdir.");
+    }
+}

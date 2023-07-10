@@ -1,0 +1,32 @@
+.wishList {
+  display: flex;
+  flex-wrap: wrap;
+  .wish {
+    padding: 5% 0;
+    .cards {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+
+      .card {
+        width: 33.3%;
+        text-align: center;
+        margin-top: 5%;
+
+        .image {
+          display: flex;
+          justify-content: center;
+        }
+
+        a {
+          color: black;
+          background-color: #f4b200;
+          padding: 2%;
+        }
+      }
+    }
+  }
+}

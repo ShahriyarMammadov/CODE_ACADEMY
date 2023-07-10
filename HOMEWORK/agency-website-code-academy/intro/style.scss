@@ -1,0 +1,83 @@
+// header {
+//     nav {
+//         ul {
+//             margin: 0;
+//             padding: 0;
+//             list-style: none;
+
+//             li {
+//                 display: inline-block;
+
+//                 .selected {
+//                     &:hover {
+//                     }
+//                 }
+//                 a {
+//                     display: block;
+//                     padding: 6px 12px;
+//                     text-decoration: none;
+//                     &:hover {
+//                         color: green;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     @media only screen and (max-width: 500px){
+//         nav{
+//             ul{
+//                 li{
+//                     display: -webkit-flex;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .banner{
+//     asdasd
+//     @media only screen and (max-width: 500px){
+// }
+// nav ul li a:hover {
+//     color: green;
+// }
+
+// $primary-color: #7a9;
+
+@mixin theme($theme, $opacity: 0.5) {
+    background: $theme;
+    box-shadow: 0 0 1px rgba($theme, 0.25);
+    // color: $primary-color;
+    opacity: $opacity;
+}
+
+.alert {
+    @include theme($theme: #fff, $opacity: 0.3);
+}
+
+.info {
+    @include theme;
+}
+
+// .success {
+//     @include theme($theme: DarkGreen);
+// }
+
+%message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.message {
+    // @extend %message-shared;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.btn-selected{
+    @extend %message-shared;
+    color: red;
+}

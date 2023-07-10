@@ -1,0 +1,164 @@
+.container {
+    width: 320px;
+    margin: 90px auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgray;
+}
+
+/* container1 start */
+
+.container1 {
+    color: white;
+    height: 220px;
+    background-color: rgb(203, 174, 68);
+    position: relative;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.air {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image>img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -40px;
+    right: -110px;
+}
+
+.logo>img {
+    width: 70px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+/* container2 start */
+
+.container2 {
+    position: relative;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.cont2-header{
+    font-size: 25px;
+}
+
+.header{
+    display: flex;
+}
+
+.new{
+    width: 25px;
+    height: 18px;
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.text{
+    font-size: 10px;
+}
+
+.stars{
+    padding: 5px 0 5px;
+    font-size: 12px;
+}
+
+.size{
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.sizes{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.sizes>button{
+    width: 25px;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border: none;
+}
+
+.sizes>button:hover{
+    background-color: green;
+    color: aliceblue;
+}
+
+.colour{
+    display: flex;
+    width: fit-content;
+    margin: 15px 0;
+}
+
+.reng{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+}
+
+.usd{
+    cursor: pointer;
+    background-color: rgb(15, 15, 113);
+    color: aliceblue;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 55px;
+    right: -12px;
+    box-shadow: 2px 2px 5px rgb(15, 15, 113);
+    ;
+}

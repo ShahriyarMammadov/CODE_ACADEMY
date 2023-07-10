@@ -1,0 +1,19 @@
+int m = 16;
+int n = 2;
+int sum = m;
+int a = 0;
+
+for (int i = m; i >= 1; i--)
+{
+    sum = sum / n;
+    a++;
+    if (sum == 1)
+    {
+        Console.WriteLine("Quvvetidir" +" "+ a);
+        break;
+    } if (i == 2)
+{
+        Console.WriteLine("deyil");
+        break;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "blogs": [
+    {
+      "title": "Ipsam laborum maiore",
+      "body": "Itaque quasi volupta",
+      "author": "other user",
+      "id": 11
+    },
+    {
+      "title": "Eos eligendi non vol",
+      "body": "Facere officia aut e",
+      "author": "gurban",
+      "id": 13
+    },
+    {
+      "title": "Porro natus ea sit ",
+      "body": "Repellendus Tempora",
+      "author": "kanan",
+      "id": 16
+    },
+    {
+      "title": "Ad non quia praesent",
+      "body": "Odio rem pariatur D",
+      "author": "kanan",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "name": "Kanan"
+    },
+    {
+      "name": "Gurban"
+    }
+  ]
+}

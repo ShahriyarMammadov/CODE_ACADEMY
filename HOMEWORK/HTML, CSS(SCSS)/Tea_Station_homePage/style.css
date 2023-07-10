@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body *::selection {
+    color: red;
+    background-color: green;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.container1 {
+    width: 30vw;
+    margin: 60px;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text>a {
+    text-decoration: none;
+    color: black;
+}
+
+.h3 {
+    color: rgb(0, 128, 0, 0.5);
+    margin: 18px 0;
+}
+
+.fa-solid {
+    color: rgb(0, 128, 0, 0.8);
+}
+
+.container2 {
+    margin-left: 300px;
+    width: 500px;
+    margin-top: 80px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+
+.contactUs {
+    color: rgb(0, 128, 0, 0.8);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 455px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(10, 183, 10, 0.6);
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+footer {
+    width: 100vw;
+    height: fit-content;
+    color: white;
+    background-color: rgb(47, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.button:hover {
+    background-color: rgb(10, 183, 10);
+    cursor: pointer;
+    transition: 1s;
+    color: antiquewhite;
+}
+
+.icons {
+    width: fit-content;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.footer-text {
+    margin-bottom: 25px;
+}
+
+.fa-brands {
+    padding: 15px;
+    font-size: 26px;
+}
+
+.fa-brands:hover {
+    color: rgb(0, 128, 0, 0.8);
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.input:focus {
+    color: rgb(0, 128, 0, 0.8);
+    border: 2px solid rgb(0, 128, 0, 0.8);
+}

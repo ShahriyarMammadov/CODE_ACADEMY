@@ -1,0 +1,23 @@
+h1{
+    color: goldenrod;
+}
+
+.orta{
+    height: 20px;
+    width: 50%;
+}
+
+.ortaicindeOrta{
+    width: calc();
+    height: 20px;
+    background-color: blue;
+}
+
+.h3Elem,.world{
+    display: flex;
+    justify-content: space-around;
+}
+
+.world{
+    width: 100%;
+}

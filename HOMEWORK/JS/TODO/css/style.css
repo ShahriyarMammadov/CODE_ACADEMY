@@ -1,0 +1,120 @@
+body {
+  background-color: #50808E;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Catamaran", sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 0 1%;
+  width: 70%;
+  margin: 1% auto;
+  background-color: #455A64;
+}
+.container header {
+  color: #DDD8C4;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 26px;
+}
+.container header h1 {
+  margin: 0;
+}
+.container header h2 {
+  margin: 0;
+}
+.container .headerHissesi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2% 0 2% 0;
+}
+@media only screen and (max-width: 992px) {
+  .container .headerHissesi {
+    flex-direction: column;
+  }
+}
+.container .headerHissesi .inputOlan {
+  width: 60%;
+}
+.container .headerHissesi .inputOlan #input {
+  padding: 2%;
+  width: 99%;
+}
+.container .headerHissesi .buttonlarOlan {
+  width: 30%;
+  display: flex;
+  gap: 4%;
+}
+.container .headerHissesi .buttonlarOlan button {
+  cursor: pointer;
+  padding: 4%;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
+.container .headerHissesi .buttonlarOlan .addbtn {
+  background-color: #4CAF50;
+  border: none;
+}
+.container .headerHissesi .buttonlarOlan .addbtn:hover {
+  background-color: #388E3C;
+  box-shadow: 0px 0px 0px 4px green;
+}
+.container .headerHissesi .buttonlarOlan .deletebtn {
+  background-color: #D32F2F;
+  border: none;
+}
+.container .headerHissesi .buttonlarOlan .deletebtn:hover {
+  background-color: #D50000;
+  box-shadow: 0px 0px 0px 4px red;
+}
+.container .elaveOlunacaqHisse {
+  color: white;
+  margin-left: 3%;
+  width: 90%;
+}
+.container .elaveOlunacaqHisse .text {
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+.container .elaveOlunacaqHisse .text .textInput {
+  width: 90%;
+}
+.container .elaveOlunacaqHisse .text .textInput h2 {
+  margin: 0;
+}
+.container .elaveOlunacaqHisse .text .textInput i {
+  cursor: pointer;
+  font-size: 25px;
+}
+.container .elaveOlunacaqHisse .text .textInput i:hover {
+  color: #DDD8C4;
+}
+.container .elaveOlunacaqHisse .text .textInput button {
+  margin-left: 1%;
+  margin-right: 3%;
+  cursor: pointer;
+  border: none;
+}
+.container .elaveOlunacaqHisse .text .textInput button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.alert {
+  position: absolute;
+  left: 42%;
+  top: 45%;
+  display: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2%;
+  background-color: red;
+}
+.alert header {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

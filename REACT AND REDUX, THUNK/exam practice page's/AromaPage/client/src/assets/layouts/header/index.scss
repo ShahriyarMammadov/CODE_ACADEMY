@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 1% 0;
+
+  @media only screen and (max-width: 1600px) {
+    button {
+      display: none;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    font-size: 15px;
+    font-weight: 400;
+
+    a {
+      text-decoration: none;
+
+      &.active {
+        color: rgb(29, 62, 90);
+      }
+    }
+
+    .ant-btn {
+      border: none;
+    }
+  }
+
+  .components {
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    font-size: 24px;
+    i {
+      cursor: pointer;
+    }
+    button {
+      padding: 5% 45%;
+      border: 1px solid rgb(153, 151, 151);
+      background-color: white;
+      border-radius: 40px;
+      font-size: 15px;
+
+      &:hover {
+        border: 1px solid rgb(30, 55, 77);
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    nav,
+    .components {
+      display: none;
+    }
+  }
+}
+
+.fa-bars {
+  display: none;
+  font-size: 25px;
+
+  @media only screen and (max-width: 992px) {
+    display: block;
+  }
+}

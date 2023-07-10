@@ -1,0 +1,6 @@
+git init 
+git add .
+git commit -m "First GitHub project"
+git branch -M main
+git remote add origin https://github.com/Sehriyar4473/AP207CodeAcademy.git
+git push -u origin main

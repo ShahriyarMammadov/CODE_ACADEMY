@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "name": "Shahriyar",
+            "surname": "Mammadov",
+            "email": "sehriyar.memmedov.2002@mail.ru",
+            "phone": "+99450 313 4473",
+            "country": "Azerbaijan",
+            "city": "Baku"
+        },
+        {
+            "title": "HtmlWebpackPlugin Multiples HTML files"
+        }
+    ]
+}

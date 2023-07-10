@@ -1,0 +1,63 @@
+.featured {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  position: relative;
+  .swiper-wrapper {
+    width: 480px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+  .swiper-slide {
+    @media only screen and (max-width: 992px) {
+      width: 262px !important;
+    }
+  }
+  .swiper-wrapper {
+    @media only screen and (max-width: 992px) {
+      display: flex !important;
+      width: 100% !important;
+    }
+  }
+  .swiper-pagination {
+    @media only screen and (max-width: 992px) {
+      display: none !important;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+    color: rgb(101, 181, 181);
+  }
+  p {
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 9;
+    background-color: green;
+    width: 70px;
+    transform: rotate(-20deg);
+  }
+
+  .swiper-pagination-bullets {
+    top: 96% !important;
+  }
+}
+.ant-modal-footer {
+  display: none !important;
+}
+.ant-modal-content {
+  button {
+    margin-top: 4%;
+    border-radius: 50px;
+    padding: 1.5%;
+    color: white;
+    background-color: rgb(16, 16, 125);
+  }
+}

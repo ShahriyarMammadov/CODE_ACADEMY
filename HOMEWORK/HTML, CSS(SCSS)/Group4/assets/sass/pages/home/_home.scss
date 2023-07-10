@@ -1,0 +1,283 @@
+#section1 {
+    background-color: $bg-color;
+    width: 100%;
+    position: relative;
+
+    .center {
+
+        .center-first {
+
+            .image {
+                margin: 0 auto;
+                position: relative;
+                background-image: url("../images/keyboard.svg");
+                width: 1170px;
+                height: 720px;
+                background-size: cover;
+
+                @media only screen and (max-width: 992px) {
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }
+
+            button {
+                @extend %center-image-button;
+                bottom: 150px;
+                left: 220px;
+                cursor: pointer;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            h2 {
+                position: absolute;
+                width: 271px;
+                height: 64px;
+                bottom: 60px;
+                left: 220px;
+                color: #FFFFFF;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                    bottom: 51px;
+                }
+            }
+        }
+    }
+}
+
+
+// section2
+
+#section2 {
+    background-color: $bg-color;
+    width: 100%;
+
+    .top {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+
+        .top-left-image {
+            padding-top: 32px;
+            position: relative;
+
+            .image {
+                width: 570px;
+                height: 416px;
+                background-image: url("../images/sofa.svg");
+            }
+
+            button {
+                @extend %center-image-button;
+                position: absolute;
+                left: 48px;
+                bottom: 130px;
+                cursor: pointer;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            h2 {
+                position: absolute;
+                left: 48px;
+                bottom: 50px;
+                color: #FFFFFF;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            @media only screen and (max-width: 992px) {
+                .image {
+                    width: 100%;
+                    background-repeat: no-repeat;
+                }
+            }
+
+        }
+
+
+        .top-right-image {
+            position: relative;
+            padding-top: 32px;
+
+            .image {
+                width: 570px;
+                height: 416px;
+                background-image: url("../images/workmedia.svg");
+            }
+
+            button {
+                @extend %center-image-button;
+                position: absolute;
+                left: 48px;
+                bottom: 130px;
+                cursor: pointer;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            h2 {
+                position: absolute;
+                left: 48px;
+                bottom: 50px;
+                color: #FFFFFF;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            @media only screen and (max-width: 992px) {
+                .image {
+                    width: 100%;
+                    background-repeat: no-repeat;
+
+                }
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+
+        .bottom-left-image {
+            padding-top: 32px;
+            position: relative;
+
+            .image {
+                width: 570px;
+                height: 416px;
+                background-image: url("../images/dddone.svg");
+            }
+
+            button {
+                @extend %center-image-button;
+                position: absolute;
+                left: 48px;
+                bottom: 130px;
+                cursor: pointer;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            h2 {
+                position: absolute;
+                left: 48px;
+                bottom: 50px;
+                color: #FFFFFF;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            @media only screen and (max-width: 992px) {
+                .image {
+                    width: 100%;
+                    background-repeat: no-repeat;
+                }
+            }
+
+        }
+
+
+        .bottom-right-image {
+            position: relative;
+            padding-top: 32px;
+
+            .image {
+                width: 570px;
+                height: 416px;
+                background-image: url("../images/handp.svg");
+
+            }
+
+            button {
+                @extend %center-image-button;
+                position: absolute;
+                left: 48px;
+                bottom: 130px;
+                cursor: pointer;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            h2 {
+                position: absolute;
+                left: 48px;
+                bottom: 50px;
+                color: #FFFFFF;
+
+                @media only screen and (max-width: 992px) {
+                    left: 28px;
+                }
+            }
+
+            @media only screen and (max-width: 992px) {
+                .image {
+                    width: 100%;
+                    background-repeat: no-repeat;
+
+                }
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+            background-repeat: no-repeat;
+
+        }
+    }
+
+
+    .btns {
+        width: 100%;
+        @include flexBox();
+        margin-top: 98px;
+        gap: 10px;
+        padding-bottom: 80px;
+        button {
+            width: 48px;
+            height: 48px;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $primary-color;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+
+// section 2 end

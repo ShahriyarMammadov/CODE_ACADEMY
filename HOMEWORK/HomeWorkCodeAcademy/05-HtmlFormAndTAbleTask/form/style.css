@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin: 4px;
+}
+.xett{
+    background-image: linear-gradient(#cfa777,#eecc9a);
+    width: 100%;
+    height: 4px;
+}
+#User{
+    margin-left: 30px;
+}
+#mail{
+    margin-left: 8px;
+}
+#sifre{
+    margin-left: 83px;
+}
+#ad{
+    margin-left: 70px;
+}
+#soyad{
+    margin-left: 50px;
+}
+#seher{
+    margin-left: 78px;
+}

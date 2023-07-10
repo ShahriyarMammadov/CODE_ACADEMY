@@ -1,0 +1,39 @@
+/*3. 3 ədəd verilib. Bu ədədləri artan və azalan sıra ilə düzün. 
+Məsələn: a=1, b=2, c=3 daxil etdikdə cavab bu şəkildə olmalıdır:
+Artan sıra: 1, 2, 3 
+Azalan sıra: 3, 2, 1 */
+
+using System;
+
+int a = 54;
+int b = 92;
+int c = 46;
+
+if (a > b && a > c && b > c) {
+    Console.WriteLine("Artan sıra: " + c + "," + b + "," + a);
+    Console.WriteLine("Azalan sıra: " + a + "," + b + "," + c);
+} else if (a > b && a > c && c > b)
+{
+    Console.WriteLine("Artan sıra: " + b + "," + c + "," + a);
+    Console.WriteLine("Azalan sıra: " + a + "," + c + "," + b);
+}
+else if (b > a && b > c && c > a)
+{
+    Console.WriteLine("Artan sıra: " + b + "," + c + "," + a);
+    Console.WriteLine("Azalan sıra: " + a + "," + c + "," + b);
+}
+else if (b > a && b > c && a > c)
+{
+    Console.WriteLine("Artan sıra: " + c + "," + a + "," + b);
+    Console.WriteLine("Azalan sıra: " + b + "," + a + "," + c);
+}
+else if (c > a && c > b && b > a)
+{
+    Console.WriteLine("Artan sıra: " + a + "," + b + "," + c);
+    Console.WriteLine("Azalan sıra: " + c + "," + b + "," + a);
+}
+else if (c > a && c > b && a > b)
+{
+    Console.WriteLine("Artan sıra: " + b + "," + a + "," + c);
+    Console.WriteLine("Azalan sıra: " + c + "," + a + "," + b);
+}

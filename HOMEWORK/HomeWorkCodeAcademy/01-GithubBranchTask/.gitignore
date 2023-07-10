@@ -1,0 +1,3 @@
+users/*
+!users/user1.txt.txt
+!users/user3.txt.txt

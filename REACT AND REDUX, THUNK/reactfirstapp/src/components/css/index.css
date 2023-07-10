@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#registration-form {
+  position: relative;
+  width: 98.9vw;
+  height: 100vh;
+  background-image: linear-gradient(200deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+#registration-form .forms {
+  padding: 3%;
+  position: absolute;
+  top: 120px;
+  left: 23%;
+  width: 50%;
+  background-color: whitesmoke;
+}
+#registration-form .forms header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+  margin-left: 7px;
+}
+#registration-form .forms button {
+  background-image: linear-gradient(100deg, green, blue);
+  padding: 2%;
+  width: 15%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+}
+#registration-form .forms .inputs {
+  font-weight: 600;
+  font-size: 14px;
+}
+#registration-form .forms .inputs .firstInput {
+  display: flex;
+}
+#registration-form .forms .inputs .firstInput input {
+  padding: 1%;
+  background-color: lightgrey;
+  border: none;
+  width: 35%;
+  margin-top: 10px;
+}
+#registration-form .forms .inputs .firstInput label {
+  font-size: 14px;
+  font-weight: 600;
+}
+#registration-form .forms .inputs .firstInput .first {
+  width: 50%;
+}
+#registration-form .forms .inputs .firstInput .first input,
+#registration-form .forms .inputs .firstInput .first label {
+  position: absolute;
+  left: 53px;
+}
+#registration-form .forms .inputs .firstInput .second {
+  width: 50%;
+  padding-bottom: 40px;
+}
+#registration-form .forms .inputs .firstInput .second input,
+#registration-form .forms .inputs .firstInput .second label {
+  position: absolute;
+  left: 430px;
+}
+#registration-form .forms .inputs .secondInput {
+  margin-top: 25px;
+}
+#registration-form .forms .inputs .secondInput .website {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+#registration-form .forms .inputs .secondInput .website input {
+  padding: 1%;
+  width: 98.5%;
+  margin-left: 25px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: none;
+}
+#registration-form .forms .inputs .secondInput .website label {
+  position: absolute;
+  top: -18px;
+  left: 8px;
+  padding-right: 10px;
+}
+#registration-form .forms .inputs .secondInput .text {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 91.2%;
+}
+#registration-form .forms .inputs .secondInput .text textarea {
+  background-color: lightgrey;
+  margin-left: 1.5%;
+  border: none;
+}
+#registration-form .forms .inputs .secondInput .text label {
+  position: absolute;
+  top: 44%;
+  left: 6.5%;
+}/*# sourceMappingURL=index.css.map */

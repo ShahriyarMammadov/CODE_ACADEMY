@@ -1,0 +1,83 @@
+body *::selection {
+    color: red;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#delete {
+    border: none;
+}
+
+#add {
+    border: none;
+}
+
+#delete:hover {
+    background-color: rgb(195, 27, 27);
+    color: white;
+    box-shadow: 5px 5px 20px red;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#ulList:hover {
+    cursor: pointer;
+}
+
+#delete:active {
+    background-color: orangered;
+}
+
+#add:active {
+    background-color: rgb(21, 145, 21);
+}
+
+#add:hover {
+    background-color: green;
+    color: whitesmoke;
+    box-shadow: 5px 5px 20px green;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#delete {
+    background-color: tomato;
+    color: lavender;
+    width: 130px;
+    height: 30px;
+}
+
+#add {
+    background-color: rgb(23, 154, 82);
+    color: lavender;
+    width: 130px;
+    height: 30px;
+}
+
+#input {
+    width: 250px;
+    height: 25px;
+}
+
+#input {
+    background-color: rgba(108, 76, 16, 0.119);
+}
+
+#input:focus {
+    box-shadow: 5px 5px 15px rgb(223, 150, 41);
+    background-color: wheat;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#animasiya2 {
+    display: none;
+    background-color: grey;
+    color: whitesmoke;
+    width: 220px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
